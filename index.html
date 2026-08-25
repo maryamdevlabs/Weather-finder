@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="weather-app">
+        <h1>🌡🌦Weather Finder</h1>
+        <form id="weatherform">
+            <input 
+            id="cityInput"
+            type="text"
+            placeholder="Enter a city"
+            >
+            <button id="searchButton" type="submit">Search</button>
+        </form>
+        <p id="message"></p>
+        <section id="weatherResult">
+            <h2 id="cityName">City</h2>
+            <p id="temperature">--C</p>
+            <p id="Condition">Weather Condition</p>
+            <p id="wind">💨Wind:--km/h</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
