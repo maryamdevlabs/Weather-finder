@@ -1,0 +1,21 @@
+{
+  "name": "weather-finder",
+  "version": "1.0.0",
+  "description": "A simple and responsive weather application that allows users to search for a city and view its current weather information.",
+  "main": "script.js",
+  "scripts": {
+  "hello": "echo Hello Momo!"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryamdevlabs/Weather-finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maryamdevlabs/Weather-finder/issues"
+  },
+  "homepage": "https://github.com/maryamdevlabs/Weather-finder#readme"
+}
