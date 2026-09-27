@@ -1,20 +1,31 @@
 # 🌤️ Weather Finder
 
-A simple and responsive weather application that allows users to search for a city and view its current weather information.
+A responsive weather application built with **HTML, CSS, and JavaScript** that allows users to search for a city and view its current weather information.
+
+The application uses the **Open-Meteo APIs** to find a city's geographic coordinates and retrieve its current weather data.
 
 ## ✨ Features
 
 * 🔍 Search for any city
-* 🌡️ View the current temperature
-* ☁️ See the current weather condition
+* 🌡️ View current temperature
+* ☁️ View current weather conditions
 * 💨 View wind speed
-* ⚠️ Displays helpful error messages for invalid or empty searches
+* ⚠️ Helpful error messages for invalid or empty searches
 * 📱 Responsive design
+* 🌐 Weather data retrieved through external APIs
+
+## 📸 Preview
+
+![Weather Finder Preview](screenshot/preview.png)
+
+## 🌐 Live Demo
+
+[View Weather Finder Live](https://maryamdevlabs.github.io/Weather-finder/)
 
 ## 🛠️ Built With
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 * Open-Meteo Geocoding API
 * Open-Meteo Weather API
@@ -22,21 +33,10 @@ A simple and responsive weather application that allows users to search for a ci
 ## ⚙️ How It Works
 
 1. The user enters a city name.
-2. The application uses the Open-Meteo Geocoding API to find the city's latitude and longitude.
-3. The application sends those coordinates to the Open-Meteo Weather API.
-4. The current weather information is displayed on the screen.
+2. The application sends the city name to the Open-Meteo Geocoding API.
+3. The API returns the city's latitude and longitude.
+4. Those coordinates are sent to the Open-Meteo Weather API.
+5. The current weather data is retrieved and displayed.
+6. Invalid or empty searches display an appropriate error message.
 
-## 📂 Project Structure
-
-```text
-weather-finder/
-├── index.html
-├── style.css
-├── script.js
-├── .gitignore
-└── README.md
-```
-
-## 👩‍💻 Author
-
-Maryam
+## 📂 Project Struc
