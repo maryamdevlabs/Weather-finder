@@ -16,7 +16,7 @@ The application uses the **Open-Meteo APIs** to find a city's geographic coordin
 
 ## 📸 Preview
 
-![Weather Finder Preview](screenshots/preview.png)
+![Weather Finder Preview](screenshot/preview.png)
 
 ## 🌐 Live Demo
 
