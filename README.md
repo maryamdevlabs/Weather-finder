@@ -16,7 +16,7 @@ The application uses the **Open-Meteo APIs** to find a city's geographic coordin
 
 ## 📸 Preview
 
-![Weather Finder Preview](screenshot/preview.png)
+![Weather Finder Preview](screenshots/preview.png)
 
 ## 🌐 Live Demo
 
@@ -39,4 +39,23 @@ The application uses the **Open-Meteo APIs** to find a city's geographic coordin
 5. The current weather data is retrieved and displayed.
 6. Invalid or empty searches display an appropriate error message.
 
-## 📂 Project Struc
+## 📂 Project Structure
+
+```text
+Weather-finder/
+├── screenshots/
+│   └── preview.png
+├── index.html
+├── style.css
+├── script.js
+├── .gitignore
+└── README.md
+```
+
+## 💻 GitHub Repository
+
+[View the source code on GitHub](https://github.com/maryamdevlabs/Weather-finder)
+
+## 👩‍💻 Author
+
+**Maryam**
